@@ -1,6 +1,8 @@
 package Interfaces;
 
+import Abstract.Object;
 import Classes.Car;
+
 
 public interface Repairs
 {
@@ -8,3 +10,4 @@ public interface Repairs
      void checkFixingProgress(Car c);
      void startFixing(Object o);
 }
+

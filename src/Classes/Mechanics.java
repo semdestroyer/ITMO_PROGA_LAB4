@@ -97,3 +97,4 @@ public class Mechanics extends Person implements Repairs
         System.out.println(getName() + " начали чинить " + o.getName());
     }
 }
+

@@ -1,5 +1,7 @@
 package Interfaces;
 
+import Abstract.Object;
+
 public interface ArrivingObject
 {
     void whenNear();

@@ -67,13 +67,19 @@ public class Baby extends Person implements ArrivingObject
     }
 
 
+    public void someAction() {
+
+    }
+
     @Override
     public void whenNear() {
 
     }
+
 
     @Override
     public void onArrive(Object o) {
         System.out.println(getName() + " подошли к " + o.getName());
     }
 }
+

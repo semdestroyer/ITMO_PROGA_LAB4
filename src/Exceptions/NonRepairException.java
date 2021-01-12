@@ -2,9 +2,8 @@ package Exceptions;
 
 public class NonRepairException extends Exception
 {
-    public NonRepairException(String message)
-    {
-        super(message);
-
+    @Override
+    public String toString() {
+        return "Exception, car health already 100";
     }
 }
