@@ -1,6 +1,6 @@
 package Exceptions;
 
-public class NonDriveException extends Exception
+public class NonDriveException extends RuntimeException
 {
     @Override
     public String toString() {

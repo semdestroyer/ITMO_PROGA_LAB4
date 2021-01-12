@@ -16,7 +16,7 @@ public class Main
         }}
 
 
-    public static void main(String args[]) throws NonDriveException {
+    public static void main(String args[]) {
 
         new talks().on();
         class hope {
